@@ -17,7 +17,7 @@ The code is pretty heavily commented, and the places where you need to insert yo
 
 Using it from your site involves simply running an http request with the appropriate querystring values.
 
-  <%
+	<%
 	var http = Server.CreateObject("MSXML2.ServerXMLHTTP");
 	http.open('GET', 'twitter-oauth.asp?count=1&id=16715178&output=none', false);
 	http.send();
